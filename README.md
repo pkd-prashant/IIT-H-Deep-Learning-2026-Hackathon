@@ -2,6 +2,8 @@
 
 Dual-stream PyTorch solution for binary synthetic scene classification, using RGB and gradient ResNet-34 streams with pseudo-labeling, BatchNorm adaptation, test-time augmentation, and probability-space ensembling.
 
+**Achievement:** Team 42 secured **3rd place among 74 teams** in the hackathon.
+
 ## Project Overview
 
 This project solves the **IITH Deep Learning 2026 Hackathon** binary image classification task. The dataset contains ray-traced synthetic 3D scenes with cubes, spheres, and cylinders under varying colors, sizes, materials, lighting, shadows, and positions.
@@ -125,6 +127,7 @@ submission.csv
 
 ## Results
 
+- Final rank: **3rd out of 74 teams**
 - Final Kaggle leaderboard score: `0.813466`
 - Model: dual-stream ResNet-34 ensemble
 - Ensembling: probability-space averaging
