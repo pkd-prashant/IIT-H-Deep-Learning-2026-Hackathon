@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Class 1 example</title>
+  <desc id="desc">Synthetic scene showing a cube and spheres present together.</desc>
+  <defs>
+    <radialGradient id="bg" cx="48%" cy="58%" r="72%">
+      <stop offset="0%" stop-color="#9b9c99"/>
+      <stop offset="65%" stop-color="#747573"/>
+      <stop offset="100%" stop-color="#555654"/>
+    </radialGradient>
+    <radialGradient id="blue" cx="35%" cy="28%" r="70%">
+      <stop offset="0%" stop-color="#5f82c8"/>
+      <stop offset="100%" stop-color="#263e85"/>
+    </radialGradient>
+    <radialGradient id="purple" cx="35%" cy="28%" r="70%">
+      <stop offset="0%" stop-color="#a852bf"/>
+      <stop offset="100%" stop-color="#6b2a87"/>
+    </radialGradient>
+    <linearGradient id="greenCube" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#3f9948"/>
+      <stop offset="100%" stop-color="#21612b"/>
+    </linearGradient>
+    <filter id="blur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <ellipse cx="190" cy="335" rx="58" ry="20" fill="#3f403d" opacity=".3" filter="url(#blur)" transform="rotate(-13 190 335)"/>
+  <ellipse cx="286" cy="284" rx="60" ry="22" fill="#3f403d" opacity=".3" filter="url(#blur)" transform="rotate(-15 286 284)"/>
+  <ellipse cx="388" cy="244" rx="46" ry="17" fill="#3f403d" opacity=".26" filter="url(#blur)" transform="rotate(-11 388 244)"/>
+  <circle cx="168" cy="306" r="31" fill="url(#purple)"/>
+  <circle cx="257" cy="310" r="33" fill="url(#blue)"/>
+  <circle cx="383" cy="235" r="28" fill="url(#blue)"/>
+  <g transform="translate(284 214) rotate(2)">
+    <polygon points="0,34 50,46 50,104 0,90" fill="#2c7835"/>
+    <polygon points="0,34 30,0 84,12 50,46" fill="#409c49"/>
+    <polygon points="50,46 84,12 84,70 50,104" fill="#24682d"/>
+  </g>
+</svg>

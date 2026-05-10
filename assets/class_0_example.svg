@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Class 0 example</title>
+  <desc id="desc">Synthetic scene showing cylinders and cubes without the cube and sphere co-occurrence.</desc>
+  <defs>
+    <radialGradient id="bg" cx="42%" cy="58%" r="72%">
+      <stop offset="0%" stop-color="#989997"/>
+      <stop offset="64%" stop-color="#717270"/>
+      <stop offset="100%" stop-color="#535453"/>
+    </radialGradient>
+    <linearGradient id="teal" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#45aaa8"/>
+      <stop offset="100%" stop-color="#1e7473"/>
+    </linearGradient>
+    <linearGradient id="purple" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#8a3ca7"/>
+      <stop offset="100%" stop-color="#5a2477"/>
+    </linearGradient>
+    <linearGradient id="cube" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#c8c64a"/>
+      <stop offset="100%" stop-color="#8f8e2e"/>
+    </linearGradient>
+    <filter id="blur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <ellipse cx="180" cy="350" rx="64" ry="22" fill="#434442" opacity=".32" filter="url(#blur)" transform="rotate(-12 180 350)"/>
+  <ellipse cx="322" cy="278" rx="54" ry="20" fill="#444541" opacity=".28" filter="url(#blur)" transform="rotate(-18 322 278)"/>
+  <ellipse cx="190" cy="235" rx="44" ry="16" fill="#444541" opacity=".25" filter="url(#blur)" transform="rotate(-10 190 235)"/>
+  <g transform="translate(132 286)">
+    <ellipse cx="40" cy="16" rx="34" ry="16" fill="#54bbb8"/>
+    <rect x="6" y="16" width="68" height="62" fill="url(#teal)"/>
+    <ellipse cx="40" cy="78" rx="34" ry="16" fill="#267f7d"/>
+  </g>
+  <g transform="translate(154 192) scale(.72)">
+    <ellipse cx="40" cy="16" rx="30" ry="14" fill="#9d4dbc"/>
+    <rect x="10" y="16" width="60" height="56" fill="url(#purple)"/>
+    <ellipse cx="40" cy="72" rx="30" ry="14" fill="#642482"/>
+  </g>
+  <g transform="translate(298 220) rotate(8)">
+    <polygon points="0,28 48,38 48,90 0,78" fill="#aaa83d"/>
+    <polygon points="0,28 26,0 76,10 48,38" fill="#c7c54b"/>
+    <polygon points="48,38 76,10 76,62 48,90" fill="#969433"/>
+  </g>
+  <g transform="translate(252 166) rotate(-6) scale(.68)">
+    <polygon points="0,28 48,38 48,90 0,78" fill="#adab3e"/>
+    <polygon points="0,28 26,0 76,10 48,38" fill="#cbc94c"/>
+    <polygon points="48,38 76,10 76,62 48,90" fill="#949232"/>
+  </g>
+</svg>
